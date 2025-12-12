@@ -1,4 +1,4 @@
-# Pendakian Slamet
+# Laravel E-Booking Gunung Slamet
 
 Proyek Laravel untuk reservasi pendakian Gunung Slamet (basis pendaki/admin).
 
@@ -23,6 +23,3 @@ Proyek Laravel untuk reservasi pendakian Gunung Slamet (basis pendaki/admin).
 - Halaman fitur: `resources/views/pages` (landing/panduan), `berita`, `blacklist`, `peraturan`, `pendakian`, `reservasi`, `pendaki`, `auth`.
 - Dokumentasi struktur detail: `docs/STRUKTUR.md`.
 
-## Catatan Teknis
-- Kewarganegaraan/Identitas memakai enum (`WNI/WNA`, `KTP/Kartu Pelajar/SIM/Passport/KIAS`) sesuai migrasi `2025_12_10_000000_update_kewarganegaraan_identitas_columns.php`.
-- Peringatan composer tentang Flysystem adalah dari paket vendor (tidak memblokir fungsi). Bisa diabaikan atau dibersihkan lewat exclude classmap jika diperlukan.
